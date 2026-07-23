@@ -1,8 +1,13 @@
 aid: babylon-bio
 name: Babylon Bio
-description: 'Babylon Bio is a company surfaced as a portfolio company of lux-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Babylon Bio (Babylon Biosciences) is a San Francisco-based drug discovery and development
+  company founded in 2023 and backed by Lux Capital. Staffed by experienced medicinal chemists and
+  biologists with a track record of discovering FDA-approved medicines, the company develops
+  therapeutics that rescue essential functions in the brain rather than clearing emergent pathology,
+  leveraging a proprietary high-throughput assay platform with an early focus on neurodegenerative
+  disease including Alzheimer''s. It was surfaced as a portfolio company of Lux Capital and added to
+  the API Evangelist network. As a private, pre-commercial biotech it publishes no public API,
+  developer portal, or documentation surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/babylon-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +15,44 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-status: 'no-api-surface: identity-only biotech; verified no public API/docs/well-known as of 2026-07-18'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/660078e1a7370d500b5e719d/67e99045ff17f5c0923513db_babylon_hero.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Biotech
+- Drug Discovery
+- Pharmaceuticals
+- Therapeutics
+- Neuroscience
+- Life Sciences
+- Alzheimer's
 apis: []
+common:
+- type: Website
+  url: https://babylon.bio
+- type: LinkedIn
+  url: https://www.linkedin.com/company/babylon-bio/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
